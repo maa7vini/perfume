@@ -116,3 +116,128 @@ main {
     background-color: #2a6650;
     transition: .3s;
 }
+
+@media (max-width: 750px) {
+    .card-perfume {
+        height: 400px;
+        width: 550px;
+    }
+
+    .left-card {
+        height: 400px;
+        width: 50%;
+    }
+
+    .right-perfume {
+        height: 400px;
+        width: 50%;
+    }
+
+    .right-perfume h2 {
+        margin-top: 20px;
+        margin-left: -130px;
+        font-size: 1em;
+        color: #b4b4b4;
+        font-family: sans-serif;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.062);
+    }
+
+    .right-perfume-txt {
+        margin-top: 10px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 605px) {
+    .card-perfume {
+        height: 450px;
+        width: 450px;
+    }
+
+    .left-card {
+        height: 450px;
+        width: 50%;
+    }
+
+    .right-perfume {
+        height: 450px;
+        width: 50%;
+    }
+
+    .right-perfume-txt {
+        margin-top: 10px;
+        height: 100px;
+    }
+
+    .right-perfume-valor {
+        margin-top: 170px;
+    }
+
+    .right-perfume h2 {
+        margin-top: 0px;
+        margin-left: -75px;
+        font-size: 1em;
+        color: #b4b4b4;
+        font-family: sans-serif;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.062);
+    }
+}
+
+@media (max-width: 500px) {
+    .card-perfume {
+        height: 500px;
+        width: 90%;
+    }
+
+    .left-card {
+        position: relative;
+        z-index: 0;
+        height: 100px;
+        width: 100px;
+    }
+
+    .right-perfume {
+        height: 500px;
+        width: 90%;
+        position: absolute;
+        z-index: 1;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .right-perfume-txt {
+        margin-top: 30px;
+        height: 10px;
+    }
+
+    .right-perfume h2 {
+        margin-top: 10px;
+        margin-left: -300px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card-perfume {
+        height: 400px;
+        width: 90%;
+    }
+
+    .right-perfume {
+        height: 400px;
+        width: 90%;
+    }
+
+    .right-perfume h2 {
+        margin-top: 0px;
+        margin-left: -190px;
+    }
+
+    .right-perfume-txt {
+        margin-top: 20px;
+        height: 0px;
+    }
+
+    .right-perfume-valor {
+        margin-top: 220px;
+    }
+}
